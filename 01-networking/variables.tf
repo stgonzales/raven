@@ -56,19 +56,19 @@ variable "vpc" {
       },
       {
         name              = "raven-public-subnet-us-east-1b"
-        cidr_block        = "10.0.64.0/26"
+        cidr_block        = "10.0.0.64/26"
         availability_zone = "us-east-1b"
       }
     ]
     private_subnets = [
       {
         name              = "raven-private-subnet-us-east-1a"
-        cidr_block        = "10.0.128.0/26"
+        cidr_block        = "10.0.0.128/26"
         availability_zone = "us-east-1a"
       },
       {
         name              = "raven-private-subnet-us-east-1b"
-        cidr_block        = "10.0.192.0/26"
+        cidr_block        = "10.0.0.192/26"
         availability_zone = "us-east-1b"
       }
     ]
